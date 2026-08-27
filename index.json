@@ -8,7 +8,7 @@
   "extensionList": {
     "extensions": [
       {
-        "name": "Niceoppai",
+        "name": "Niceoppai-SeFree",
         "packageName": "eu.kanade.tachiyomi.extension.th.niceoppai",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo/tachiyomi-th.niceoppai-v1.6.1.apk",
@@ -21,8 +21,8 @@
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
-            "id": "7720269837249664423",
-            "name": "Niceoppai",
+            "id": "5108709005324083500",
+            "name": "Niceoppai-SeFree",
             "language": "th",
             "homeUrl": "https://www.niceoppai.net"
           }
