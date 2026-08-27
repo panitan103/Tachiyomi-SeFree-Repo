@@ -1,0 +1,464 @@
+# compiler: R8
+# compiler_version: 9.3.16
+# min_api: 26
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 0b477e1329045a2f95b57e71fa7798083e8d78ca01735ad4c240fdf71eb6f33a
+# pg_map_hash: SHA-256 0b477e1329045a2f95b57e71fa7798083e8d78ca01735ad4c240fdf71eb6f33a
+eu.kanade.tachiyomi.extension.th.niceoppai.ExtensionGenerated -> eu.kanade.tachiyomi.extension.th.niceoppai.ExtensionGenerated:
+# {"id":"sourceFile","fileName":"ExtensionGenerated.kt"}
+    boolean eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.supportsLatest -> d
+    kotlin.Lazy eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.dateFormat$delegate -> e
+    java.lang.String[] eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.ORDER_BY_FILTER_OPTIONS -> f
+    java.lang.String[] eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.ORDER_BY_FILTER_OPTIONS_VALUES -> g
+    1:11:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<clinit>():132:132 -> <clinit>
+    12:39:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<clinit>():139:139 -> <clinit>
+    40:41:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<clinit>():136:136 -> <clinit>
+    42:69:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<clinit>():144:144 -> <clinit>
+    70:72:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<clinit>():141:141 -> <clinit>
+    1:4:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<init>():21:21 -> <init>
+    1:4:void <init>():6 -> <init>
+    5:7:void eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.<init>():24:24 -> <init>
+    5:7:void <init>():6 -> <init>
+    1:1:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):49:49 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Leu/kanade/tachiyomi/extension/th/niceoppai/ExtensionGenerated;Leu/kanade/tachiyomi/source/model/SManga;Ljava/util/List;ZZLkotlin/coroutines/jvm/internal/ContinuationImpl;)Ljava/lang/Object;"}
+    2:2:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55:55 -> c
+    3:9:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):61:67 -> c
+    3:9:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    10:10:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):176:176 -> c
+    10:10:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    11:11:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):68:68 -> c
+    11:11:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    12:13:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):70:71 -> c
+    12:13:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    14:14:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):68:68 -> c
+    14:14:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    15:15:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):74:74 -> c
+    15:15:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    16:17:int eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getStatus(java.lang.String):121:122 -> c
+    16:17:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):74 -> c
+    16:17:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    18:18:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):74:74 -> c
+    18:18:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    19:19:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):77:77 -> c
+    19:19:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    20:20:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55:55 -> c
+    21:21:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):61:61 -> c
+    21:21:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):55 -> c
+    22:22:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56:56 -> c
+    23:25:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):82:84 -> c
+    23:25:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    26:28:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):178:180 -> c
+    26:28:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    29:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):84:84 -> c
+    29:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    30:30:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):180:180 -> c
+    30:30:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    31:31:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):84:84 -> c
+    31:31:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    32:32:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):182:182 -> c
+    32:32:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    33:35:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):86:88 -> c
+    33:35:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    36:36:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):86:86 -> c
+    36:36:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    37:37:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56:56 -> c
+    38:38:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchChapters(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):82:82 -> c
+    38:38:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):56 -> c
+    39:39:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):57:57 -> c
+    1:21:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):36:36 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lokhttp3/Request;)Leu/kanade/tachiyomi/source/model/MangasPage;"}
+    22:30:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):37:37 -> d
+    31:35:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):159:159 -> d
+    36:49:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):169:169 -> d
+    50:51:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):168:168 -> d
+    52:61:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):38:38 -> d
+    62:67:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):39:39 -> d
+    68:77:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):40:40 -> d
+    78:95:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):41:41 -> d
+    96:116:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):42:42 -> d
+    117:120:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):168:168 -> d
+    121:129:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):45:45 -> d
+    130:137:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):173:173 -> d
+    138:152:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):174:174 -> d
+    153:164:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):45:45 -> d
+    165:171:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):46:46 -> d
+    172:177:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangasPage(okhttp3.Request,kotlin.coroutines.Continuation):36:36 -> d
+    1:9:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):93:93 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lorg/jsoup/nodes/Document;)Ljava/util/ArrayList;"}
+    10:14:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):184:184 -> e
+    15:27:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):194:194 -> e
+    28:29:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):193:193 -> e
+    30:44:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):94:94 -> e
+    45:53:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):95:95 -> e
+    54:59:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):96:96 -> e
+    60:62:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):97:97 -> e
+    63:78:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):98:98 -> e
+    79:87:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):99:99 -> e
+    88:102:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):100:100 -> e
+    103:118:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101:101 -> e
+    119:125:long eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseDate(java.lang.String):127:127 -> e
+    119:125:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101 -> e
+    126:127:long eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseDate(java.lang.String):128:128 -> e
+    126:127:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101 -> e
+    128:129:kotlin.Lazy eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.access$getDateFormat$delegate$cp():21:21 -> e
+    128:129:java.text.SimpleDateFormat eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion.getDateFormat():132 -> e
+    128:129:java.text.SimpleDateFormat eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion.access$getDateFormat(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion):131 -> e
+    128:129:long eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseDate(java.lang.String):128 -> e
+    128:129:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101 -> e
+    130:135:java.text.SimpleDateFormat eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion.getDateFormat():132:132 -> e
+    130:135:java.text.SimpleDateFormat eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion.access$getDateFormat(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion):131 -> e
+    130:135:long eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseDate(java.lang.String):128 -> e
+    130:135:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101 -> e
+    136:185:long eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseDate(java.lang.String):128:128 -> e
+    136:185:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101 -> e
+    186:191:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):101:101 -> e
+    192:197:java.util.List eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.parseChapters(org.jsoup.nodes.Document):193:193 -> e
+    1:3:java.lang.String getBaseUrl():20:20 -> getBaseUrl
+    1:6:long getId():0:0 -> getId
+    1:3:java.lang.String getLang():14:14 -> getLang
+    1:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getLatestUpdates$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,kotlin.coroutines.Continuation):28:28 -> getLatestUpdates
+    1:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getLatestUpdates(int,kotlin.coroutines.Continuation):0 -> getLatestUpdates
+    1:3:java.lang.String getName():11:11 -> getName
+    1:2:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):106:107 -> getPageList
+    1:2:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    3:3:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):198:198 -> getPageList
+    3:3:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    4:5:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):200:201 -> getPageList
+    4:5:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    6:6:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):108:108 -> getPageList
+    6:6:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    7:7:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):201:201 -> getPageList
+    7:7:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    8:8:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):106:106 -> getPageList
+    8:8:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation):0 -> getPageList
+    1:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPopularManga$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,kotlin.coroutines.Continuation):26:26 -> getPopularManga
+    1:29:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getPopularManga(int,kotlin.coroutines.Continuation):0 -> getPopularManga
+    1:3:boolean eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSupportsLatest():24:24 -> getSupportsLatest
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai -> R8$$REMOVED$$CLASS$$1:
+# {"id":"sourceFile","fileName":"Niceoppai.kt"}
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$$ExternalSyntheticLambda0 -> i:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    3:12:java.text.SimpleDateFormat eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.dateFormat_delegate$lambda$0():133:133 -> invoke
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()Ljava/lang/Object;"}
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$$ExternalSyntheticLambda1 -> j:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    8:15:java.lang.CharSequence eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchDetails$lambda$1$0(org.jsoup.nodes.Element):65:65 -> invoke
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;)Ljava/lang/Object;"}
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion -> R8$$REMOVED$$CLASS$$0:
+# {"id":"sourceFile","fileName":"Niceoppai.kt"}
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$fetchMangaUpdate$1 -> k:
+# {"id":"sourceFile","fileName":"Niceoppai.kt"}
+    java.lang.Object L$0 -> a
+    java.lang.Object L$1 -> b
+    java.lang.Object L$2 -> c
+    java.lang.Object L$3 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Leu/kanade/tachiyomi/source/model/SManga;"}
+    boolean Z$0 -> e
+    boolean Z$1 -> f
+    java.lang.Object result -> g
+    eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai this$0 -> h
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Leu/kanade/tachiyomi/extension/th/niceoppai/ExtensionGenerated;"}
+    int label -> i
+    1:6:void <init>(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,kotlin.coroutines.Continuation):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Leu/kanade/tachiyomi/extension/th/niceoppai/ExtensionGenerated;Lkotlin/coroutines/jvm/internal/ContinuationImpl;)V"}
+    1:21:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+eu.kanade.tachiyomi.extension.th.niceoppai.OrderByFilter -> l:
+# {"id":"sourceFile","fileName":"Niceoppai.kt"}
+    kotlin.Pair[] eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.vals -> a
+    5:12:void <init>(java.lang.String,java.util.List,int):156:156 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/util/List;)V"}
+    13:15:void <init>(java.lang.String,java.util.List,int):153:153 -> <init>
+    16:21:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):155:155 -> <init>
+    16:21:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+    22:27:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):156:156 -> <init>
+    22:27:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+    28:33:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):149:149 -> <init>
+    28:33:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+    34:39:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):157:157 -> <init>
+    34:39:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+    40:45:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):160:160 -> <init>
+    40:45:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+    46:54:void eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.<init>(java.lang.String,kotlin.Pair[],int):149:149 -> <init>
+    46:54:void <init>(java.lang.String,java.util.List,int):153 -> <init>
+eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter -> R8$$REMOVED$$CLASS$$2:
+# {"id":"sourceFile","fileName":"Niceoppai.kt"}
+keiyoushi.network.CacheControlInterceptor -> a:
+# {"id":"sourceFile","fileName":"CacheControlInterceptor.kt"}
+    4:7:okhttp3.Response intercept(okhttp3.Interceptor$Chain):12:12 -> intercept
+    8:11:okhttp3.Response intercept(okhttp3.Interceptor$Chain):13:13 -> intercept
+    12:19:okhttp3.Response intercept(okhttp3.Interceptor$Chain):15:15 -> intercept
+    20:29:okhttp3.Response intercept(okhttp3.Interceptor$Chain):16:16 -> intercept
+    30:37:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17:17 -> intercept
+    38:51:boolean shouldOverride(java.lang.String):27:27 -> intercept
+    38:51:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    52:62:boolean shouldOverride(java.lang.String):34:34 -> intercept
+    52:62:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    63:76:boolean shouldOverride(java.lang.String):35:35 -> intercept
+    63:76:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    77:78:boolean shouldOverride(java.lang.String):36:36 -> intercept
+    77:78:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    79:95:boolean shouldOverride(java.lang.String):27:27 -> intercept
+    79:95:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    96:99:boolean shouldOverride(java.lang.String):36:36 -> intercept
+    96:99:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    100:107:boolean shouldOverride(java.lang.String):38:38 -> intercept
+    100:107:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    108:122:boolean shouldOverride(java.lang.String):39:39 -> intercept
+    108:122:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    123:147:boolean shouldOverride(java.lang.String):28:28 -> intercept
+    123:147:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    148:154:boolean shouldOverride(java.lang.String):41:41 -> intercept
+    148:154:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    155:169:boolean shouldOverride(java.lang.String):42:42 -> intercept
+    155:169:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    170:178:boolean shouldOverride(java.lang.String):29:29 -> intercept
+    170:178:okhttp3.Response intercept(okhttp3.Interceptor$Chain):17 -> intercept
+    179:182:okhttp3.Response intercept(okhttp3.Interceptor$Chain):21:21 -> intercept
+    183:200:okhttp3.Response intercept(okhttp3.Interceptor$Chain):22:22 -> intercept
+    201:206:okhttp3.Response intercept(okhttp3.Interceptor$Chain):23:23 -> intercept
+keiyoushi.source.KeiSource -> h:
+# {"id":"sourceFile","fileName":"KeiSource.kt"}
+    kotlin.Lazy client$delegate -> a
+    kotlin.Lazy filterCacheDir$delegate -> b
+    java.util.concurrent.ConcurrentHashMap updatesInFlight -> c
+    1:3:void <init>():48:48 -> <init>
+    4:8:void <init>():52:52 -> <init>
+    9:17:void <init>():57:57 -> <init>
+    18:20:void <init>():58:58 -> <init>
+    21:23:void <init>():59:59 -> <init>
+    24:35:void <init>():69:69 -> <init>
+    36:40:void <init>():209:209 -> <init>
+    41:45:void <init>():210:210 -> <init>
+    46:56:void <init>():212:212 -> <init>
+    57:65:void <init>():215:215 -> <init>
+    66:73:void <init>():364:364 -> <init>
+    1:12:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):70:70 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;)Lokhttp3/OkHttpClient;"}
+    13:18:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):71:71 -> a
+    19:24:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):527:527 -> a
+    25:40:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):528:528 -> a
+    41:56:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):73:73 -> a
+    57:62:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):530:530 -> a
+    63:78:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):531:531 -> a
+    79:94:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):79:79 -> a
+    95:100:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):533:533 -> a
+    101:116:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):534:534 -> a
+    117:132:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):85:85 -> a
+    133:138:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):91:91 -> a
+    139:145:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):536:536 -> a
+    146:161:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):537:537 -> a
+    162:178:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):93:93 -> a
+    179:188:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):92:92 -> a
+    189:195:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):539:539 -> a
+    196:211:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):540:540 -> a
+    212:216:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):99:99 -> a
+    217:224:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):98:98 -> a
+    225:228:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):108:108 -> a
+    229:245:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):542:542 -> a
+    246:265:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):110:110 -> a
+    266:268:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):112:112 -> a
+    269:271:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):113:113 -> a
+    272:297:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):118:118 -> a
+    298:299:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):121:121 -> a
+    300:302:void keiyoushi.network.CacheControlInterceptor.<init>():10:10 -> a
+    300:302:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):121 -> a
+    303:305:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):121:121 -> a
+    306:309:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):124:124 -> a
+    310:323:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):545:545 -> a
+    324:328:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):131:131 -> a
+    329:336:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):84:84 -> a
+    337:344:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):78:78 -> a
+    345:352:okhttp3.OkHttpClient client_delegate$lambda$0(keiyoushi.source.KeiSource):72:72 -> a
+    1:1:java.lang.Object getMangasByUrl$suspendImpl(keiyoushi.source.KeiSource,okhttp3.HttpUrl,int,kotlin.coroutines.Continuation):195:195 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;Lokhttp3/HttpUrl;ILkotlin/coroutines/Continuation;)Leu/kanade/tachiyomi/source/model/MangasPage;"}
+    2:2:java.lang.Object getMangasByUrl$suspendImpl(keiyoushi.source.KeiSource,okhttp3.HttpUrl,int,kotlin.coroutines.Continuation):198:198 -> b
+    3:4:java.lang.Object getMangasByUrl$suspendImpl(keiyoushi.source.KeiSource,okhttp3.HttpUrl,int,kotlin.coroutines.Continuation):195:196 -> b
+    5:5:java.lang.Object getMangaByUrl$suspendImpl(keiyoushi.source.KeiSource,okhttp3.HttpUrl,kotlin.coroutines.Continuation):185:185 -> b
+    5:5:java.lang.Object getMangaByUrl(okhttp3.HttpUrl,kotlin.coroutines.Continuation):0 -> b
+    5:5:java.lang.Object getMangasByUrl$suspendImpl(keiyoushi.source.KeiSource,okhttp3.HttpUrl,int,kotlin.coroutines.Continuation):196 -> b
+    1:3:java.lang.Void chapterListParse(okhttp3.Response):0:0 -> chapterListParse
+    1:3:java.util.List chapterListParse(okhttp3.Response):48 -> chapterListParse
+    4:9:java.lang.Void chapterListParse(okhttp3.Response):499:499 -> chapterListParse
+    4:9:java.util.List chapterListParse(okhttp3.Response):48 -> chapterListParse
+    1:3:java.lang.Void chapterListRequest(eu.kanade.tachiyomi.source.model.SManga):0:0 -> chapterListRequest
+    1:3:okhttp3.Request chapterListRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> chapterListRequest
+    4:9:java.lang.Void chapterListRequest(eu.kanade.tachiyomi.source.model.SManga):496:496 -> chapterListRequest
+    4:9:okhttp3.Request chapterListRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> chapterListRequest
+    4:8:rx.Observable fetchChapterList(eu.kanade.tachiyomi.source.model.SManga):493:493 -> fetchChapterList
+    4:8:rx.Observable fetchImageUrl(eu.kanade.tachiyomi.source.model.Page):517:517 -> fetchImageUrl
+    4:8:rx.Observable fetchMangaDetails(eu.kanade.tachiyomi.source.model.SManga):477:477 -> fetchMangaDetails
+    4:8:rx.Observable fetchPageList(eu.kanade.tachiyomi.source.model.SChapter):507:507 -> fetchPageList
+    1:5:java.lang.Object fetchRelatedMangaList$suspendImpl(keiyoushi.source.KeiSource,eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):416:416 -> fetchRelatedMangaList
+    1:5:java.lang.Object fetchRelatedMangaList(eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation):0 -> fetchRelatedMangaList
+    7:11:rx.Observable fetchSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList):467:467 -> fetchSearchManga
+    4:27:java.lang.String getChapterUrl(eu.kanade.tachiyomi.source.model.SChapter):434:434 -> getChapterUrl
+    1:9:okhttp3.OkHttpClient getClient():69:69 -> getClient
+    1:2:boolean getDisableRelatedMangas():406:406 -> getDisableRelatedMangas
+    1:2:boolean getDisableRelatedMangasBySearch():403:403 -> getDisableRelatedMangasBySearch
+    1:2:eu.kanade.tachiyomi.source.model.FilterList eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getFilterList(kotlinx.serialization.json.JsonElement):112:112 -> getFilterList
+    1:2:eu.kanade.tachiyomi.source.model.FilterList getFilterList():254 -> getFilterList
+    3:4:eu.kanade.tachiyomi.source.model.FilterList eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getFilterList(kotlinx.serialization.json.JsonElement):113:113 -> getFilterList
+    3:4:eu.kanade.tachiyomi.source.model.FilterList getFilterList():254 -> getFilterList
+    5:16:eu.kanade.tachiyomi.source.model.FilterList eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getFilterList(kotlinx.serialization.json.JsonElement):115:115 -> getFilterList
+    5:16:eu.kanade.tachiyomi.source.model.FilterList getFilterList():254 -> getFilterList
+    17:25:eu.kanade.tachiyomi.source.model.FilterList eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getFilterList(kotlinx.serialization.json.JsonElement):113:113 -> getFilterList
+    17:25:eu.kanade.tachiyomi.source.model.FilterList getFilterList():254 -> getFilterList
+    26:29:eu.kanade.tachiyomi.source.model.FilterList eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getFilterList(kotlinx.serialization.json.JsonElement):112:112 -> getFilterList
+    26:29:eu.kanade.tachiyomi.source.model.FilterList getFilterList():254 -> getFilterList
+    1:1:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):366:366 -> getMangaUpdate
+    2:2:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):372:372 -> getMangaUpdate
+    3:3:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):374:374 -> getMangaUpdate
+    4:4:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):377:377 -> getMangaUpdate
+    5:5:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.fetchMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):0:0 -> getMangaUpdate
+    5:5:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):377 -> getMangaUpdate
+    6:6:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):366:366 -> getMangaUpdate
+    7:8:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):380:381 -> getMangaUpdate
+    9:9:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):379:379 -> getMangaUpdate
+    10:10:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):384:384 -> getMangaUpdate
+    11:11:java.lang.Object getMangaUpdate(eu.kanade.tachiyomi.source.model.SManga,java.util.List,boolean,boolean,kotlin.coroutines.Continuation):374:374 -> getMangaUpdate
+    4:27:java.lang.String getMangaUrl(eu.kanade.tachiyomi.source.model.SManga):425:425 -> getMangaUrl
+    1:1:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):202:202 -> getSearchManga
+    2:2:java.lang.Object getMangasByUrl(okhttp3.HttpUrl,int,kotlin.coroutines.Continuation):0:0 -> getSearchManga
+    2:2:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):203 -> getSearchManga
+    3:3:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206:206 -> getSearchManga
+    4:4:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):156:156 -> getSearchManga
+    4:4:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):0 -> getSearchManga
+    4:4:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206 -> getSearchManga
+    5:5:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):155:155 -> getSearchManga
+    5:5:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):0 -> getSearchManga
+    5:5:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206 -> getSearchManga
+    6:6:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):157:157 -> getSearchManga
+    6:6:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):0 -> getSearchManga
+    6:6:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206 -> getSearchManga
+    7:7:java.lang.String eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter.toUriPart():150:150 -> getSearchManga
+    7:7:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):31 -> getSearchManga
+    7:7:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):0 -> getSearchManga
+    7:7:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206 -> getSearchManga
+    8:9:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList$suspendImpl(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):31:32 -> getSearchManga
+    8:9:java.lang.Object eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai.getSearchMangaList(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):0 -> getSearchManga
+    8:9:java.lang.Object getSearchManga(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList,kotlin.coroutines.Continuation):206 -> getSearchManga
+    1:2:boolean getSupportsRelatedMangas():393:393 -> getSupportsRelatedMangas
+    1:4:okhttp3.Headers$Builder headersBuilder():142:142 -> headersBuilder
+    5:31:okhttp3.Headers$Builder headersBuilder():143:143 -> headersBuilder
+    32:41:okhttp3.Headers$Builder headersBuilder():144:144 -> headersBuilder
+    42:45:okhttp3.Headers$Builder configureHeaders(okhttp3.Headers$Builder):0:0 -> headersBuilder
+    42:45:okhttp3.Headers$Builder headersBuilder():145 -> headersBuilder
+    1:3:java.lang.Void imageUrlParse(okhttp3.Response):0:0 -> imageUrlParse
+    1:3:java.lang.String imageUrlParse(okhttp3.Response):48 -> imageUrlParse
+    4:9:java.lang.Void imageUrlParse(okhttp3.Response):523:523 -> imageUrlParse
+    4:9:java.lang.String imageUrlParse(okhttp3.Response):48 -> imageUrlParse
+    1:3:java.lang.Void imageUrlRequest(eu.kanade.tachiyomi.source.model.Page):0:0 -> imageUrlRequest
+    1:3:okhttp3.Request imageUrlRequest(eu.kanade.tachiyomi.source.model.Page):48 -> imageUrlRequest
+    4:9:java.lang.Void imageUrlRequest(eu.kanade.tachiyomi.source.model.Page):520:520 -> imageUrlRequest
+    4:9:okhttp3.Request imageUrlRequest(eu.kanade.tachiyomi.source.model.Page):48 -> imageUrlRequest
+    1:3:java.lang.Void latestUpdatesParse(okhttp3.Response):0:0 -> latestUpdatesParse
+    1:3:eu.kanade.tachiyomi.source.model.MangasPage latestUpdatesParse(okhttp3.Response):48 -> latestUpdatesParse
+    4:9:java.lang.Void latestUpdatesParse(okhttp3.Response):463:463 -> latestUpdatesParse
+    4:9:eu.kanade.tachiyomi.source.model.MangasPage latestUpdatesParse(okhttp3.Response):48 -> latestUpdatesParse
+    1:6:java.lang.Void latestUpdatesRequest(int):460:460 -> latestUpdatesRequest
+    1:6:okhttp3.Request latestUpdatesRequest(int):48 -> latestUpdatesRequest
+    1:3:java.lang.Void mangaDetailsParse(okhttp3.Response):0:0 -> mangaDetailsParse
+    1:3:eu.kanade.tachiyomi.source.model.SManga mangaDetailsParse(okhttp3.Response):48 -> mangaDetailsParse
+    4:9:java.lang.Void mangaDetailsParse(okhttp3.Response):483:483 -> mangaDetailsParse
+    4:9:eu.kanade.tachiyomi.source.model.SManga mangaDetailsParse(okhttp3.Response):48 -> mangaDetailsParse
+    1:3:java.lang.Void mangaDetailsRequest(eu.kanade.tachiyomi.source.model.SManga):0:0 -> mangaDetailsRequest
+    1:3:okhttp3.Request mangaDetailsRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> mangaDetailsRequest
+    4:9:java.lang.Void mangaDetailsRequest(eu.kanade.tachiyomi.source.model.SManga):480:480 -> mangaDetailsRequest
+    4:9:okhttp3.Request mangaDetailsRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> mangaDetailsRequest
+    1:3:java.lang.Void pageListParse(okhttp3.Response):0:0 -> pageListParse
+    1:3:java.util.List pageListParse(okhttp3.Response):48 -> pageListParse
+    4:9:java.lang.Void pageListParse(okhttp3.Response):513:513 -> pageListParse
+    4:9:java.util.List pageListParse(okhttp3.Response):48 -> pageListParse
+    1:3:java.lang.Void pageListRequest(eu.kanade.tachiyomi.source.model.SChapter):0:0 -> pageListRequest
+    1:3:okhttp3.Request pageListRequest(eu.kanade.tachiyomi.source.model.SChapter):48 -> pageListRequest
+    4:9:java.lang.Void pageListRequest(eu.kanade.tachiyomi.source.model.SChapter):510:510 -> pageListRequest
+    4:9:okhttp3.Request pageListRequest(eu.kanade.tachiyomi.source.model.SChapter):48 -> pageListRequest
+    1:3:java.lang.Void popularMangaParse(okhttp3.Response):0:0 -> popularMangaParse
+    1:3:eu.kanade.tachiyomi.source.model.MangasPage popularMangaParse(okhttp3.Response):48 -> popularMangaParse
+    4:9:java.lang.Void popularMangaParse(okhttp3.Response):453:453 -> popularMangaParse
+    4:9:eu.kanade.tachiyomi.source.model.MangasPage popularMangaParse(okhttp3.Response):48 -> popularMangaParse
+    1:6:java.lang.Void popularMangaRequest(int):450:450 -> popularMangaRequest
+    1:6:okhttp3.Request popularMangaRequest(int):48 -> popularMangaRequest
+    7:10:void prepareNewChapter(eu.kanade.tachiyomi.source.model.SChapter,eu.kanade.tachiyomi.source.model.SManga):503:503 -> prepareNewChapter
+    4:9:java.util.List relatedMangaListParse(okhttp3.Response):489:489 -> relatedMangaListParse
+    1:3:java.lang.Void relatedMangaListRequest(eu.kanade.tachiyomi.source.model.SManga):0:0 -> relatedMangaListRequest
+    1:3:okhttp3.Request relatedMangaListRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> relatedMangaListRequest
+    4:9:java.lang.Void relatedMangaListRequest(eu.kanade.tachiyomi.source.model.SManga):486:486 -> relatedMangaListRequest
+    4:9:okhttp3.Request relatedMangaListRequest(eu.kanade.tachiyomi.source.model.SManga):48 -> relatedMangaListRequest
+    1:3:java.lang.Void searchMangaParse(okhttp3.Response):0:0 -> searchMangaParse
+    1:3:eu.kanade.tachiyomi.source.model.MangasPage searchMangaParse(okhttp3.Response):48 -> searchMangaParse
+    4:9:java.lang.Void searchMangaParse(okhttp3.Response):473:473 -> searchMangaParse
+    4:9:eu.kanade.tachiyomi.source.model.MangasPage searchMangaParse(okhttp3.Response):48 -> searchMangaParse
+    1:6:java.lang.Void searchMangaRequest(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList):0:0 -> searchMangaRequest
+    1:6:okhttp3.Request searchMangaRequest(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList):48 -> searchMangaRequest
+    7:12:java.lang.Void searchMangaRequest(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList):470:470 -> searchMangaRequest
+    7:12:okhttp3.Request searchMangaRequest(int,java.lang.String,eu.kanade.tachiyomi.source.model.FilterList):48 -> searchMangaRequest
+keiyoushi.source.KeiSource$$ExternalSyntheticLambda0 -> d:
+# {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
+# {"id":"com.android.tools.r8.synthesized"}
+    int KeiSource$$ExternalSyntheticLambda0.$r8$classId -> a
+      # {"id":"com.android.tools.r8.synthesized"}
+    keiyoushi.source.KeiSource keiyoushi.source.KeiSource$$InternalSyntheticLambda$1$daf0d72822e9485d2531a746bc3152c3de4b00f33de78b31460bae62ba0c3212$0.f$0 -> b
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lh;"}
+      # {"id":"com.android.tools.r8.synthesized"}
+    1:8:void KeiSource$$ExternalSyntheticLambda0.<init>(KeiSource,int):0:0 -> <init>
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;I)V"}
+    8:15:java.io.File keiyoushi.source.KeiSource.getFilterCacheDir():212:212 -> invoke
+    8:15:java.io.File keiyoushi.source.KeiSource.filterCacheFile_delegate$lambda$0(keiyoushi.source.KeiSource):216 -> invoke
+    8:15:java.lang.Object KeiSource$$ExternalSyntheticLambda0.invoke():0 -> invoke
+      # {"id":"com.android.tools.r8.synthesized"}
+    16:22:java.io.File keiyoushi.source.KeiSource.filterCacheFile_delegate$lambda$0(keiyoushi.source.KeiSource):216:216 -> invoke
+    16:22:java.lang.Object KeiSource$$ExternalSyntheticLambda0.invoke():0 -> invoke
+    23:24:android.app.Application keiyoushi.utils.ContextKt.getApplicationContext():7:7 -> invoke
+    23:24:java.io.File keiyoushi.source.KeiSource.filterCacheDir_delegate$lambda$0(keiyoushi.source.KeiSource):213 -> invoke
+    23:24:java.lang.Object KeiSource$$ExternalSyntheticLambda0.invoke():0 -> invoke
+    25:57:java.io.File keiyoushi.source.KeiSource.filterCacheDir_delegate$lambda$0(keiyoushi.source.KeiSource):213:213 -> invoke
+    25:57:java.lang.Object KeiSource$$ExternalSyntheticLambda0.invoke():0 -> invoke
+    58:62:java.lang.Object KeiSource$$ExternalSyntheticLambda0.invoke():0:0 -> invoke
+keiyoushi.source.KeiSource$delegate$1 -> e:
+# {"id":"sourceFile","fileName":"KeiSource.kt"}
+    keiyoushi.source.KeiSource this$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lh;"}
+    1:3:void <init>(keiyoushi.source.KeiSource):52:52 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;)V"}
+    4:6:void <init>(keiyoushi.source.KeiSource):0:0 -> <init>
+    1:11:okhttp3.Headers getValue():53:53 -> getValue
+    1:11:java.lang.Object getValue():52 -> getValue
+    1:2:boolean isInitialized():54:54 -> isInitialized
+keiyoushi.source.KeiSource$getMangaUpdate$1 -> f:
+# {"id":"sourceFile","fileName":"KeiSource.kt"}
+    java.lang.Object L$0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Leu/kanade/tachiyomi/source/model/SManga;"}
+    java.lang.Object L$1 -> b
+    java.lang.Object result -> c
+    keiyoushi.source.KeiSource this$0 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lh;"}
+    int label -> e
+    1:6:void <init>(keiyoushi.source.KeiSource,kotlin.coroutines.Continuation):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;Lkotlin/coroutines/Continuation;)V"}
+    1:21:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+keiyoushi.source.KeiSource$getMangasByUrl$1 -> g:
+# {"id":"sourceFile","fileName":"KeiSource.kt"}
+    java.lang.Object L$0 -> a
+    java.lang.Object L$1 -> b
+    java.lang.Object result -> c
+    keiyoushi.source.KeiSource this$0 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"Lh;"}
+    int label -> e
+    1:6:void <init>(keiyoushi.source.KeiSource,kotlin.coroutines.Continuation):0:0 -> <init>
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lh;Lkotlin/coroutines/Continuation;)V"}
+    1:18:java.lang.Object invokeSuspend(java.lang.Object):0:0 -> invokeSuspend
+keiyoushi.utils.ContextKt -> c:
+# {"id":"sourceFile","fileName":"Context.kt"}
+    android.app.Application applicationContext -> a
+    1:4:void <clinit>():7:7 -> <clinit>
+    5:9:void <clinit>():10:10 -> <clinit>
+    10:19:void <clinit>():9:9 -> <clinit>
+    20:22:void <clinit>():7:7 -> <clinit>
+keiyoushi.utils.ContextKt$special$$inlined$get$1 -> b:
+# {"id":"sourceFile","fileName":"TypeInfo.kt"}
+    1:4:void <init>():27:27 -> <init>

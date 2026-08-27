@@ -1,0 +1,9 @@
+keiyoushi.core-pngs-0 /tmp/mainbuild/core/build/generated/res/pngs/release
+keiyoushi.core-updated_navigation_xml-1 /tmp/mainbuild/core/build/generated/updated_navigation_xml/release
+keiyoushi.core-mergeReleaseResources-2 /tmp/mainbuild/core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+keiyoushi.core-mergeReleaseResources-3 /tmp/mainbuild/core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+keiyoushi.core-release-4 /tmp/mainbuild/core/build/intermediates/merged_res/release/mergeReleaseResources
+keiyoushi.core-release-5 /tmp/mainbuild/core/build/intermediates/packaged_res/release/packageReleaseResources
+keiyoushi.core-main-6 /tmp/mainbuild/core/src/main/res
+keiyoushi.core-release-7 /tmp/mainbuild/core/src/release/res
+gradleHome-0 /home/hermes/.gradle

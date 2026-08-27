@@ -1,0 +1,8 @@
+eu.kanade.tachiyomi.extension.niceoppai-pngs-0 /tmp/mainbuild/src/th/niceoppai/build/generated/res/pngs/release
+eu.kanade.tachiyomi.extension.niceoppai-updated_navigation_xml-1 /tmp/mainbuild/src/th/niceoppai/build/generated/updated_navigation_xml/release
+eu.kanade.tachiyomi.extension.niceoppai-packageReleaseResources-2 /tmp/mainbuild/src/th/niceoppai/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+eu.kanade.tachiyomi.extension.niceoppai-packageReleaseResources-3 /tmp/mainbuild/src/th/niceoppai/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+eu.kanade.tachiyomi.extension.niceoppai-release-4 /tmp/mainbuild/src/th/niceoppai/build/intermediates/merged_res/release/mergeReleaseResources
+eu.kanade.tachiyomi.extension.niceoppai-niceoppai-5 /tmp/mainbuild/src/th/niceoppai/res
+eu.kanade.tachiyomi.extension.niceoppai-release-6 /tmp/mainbuild/src/th/niceoppai/src/release/res
+gradleHome-0 /home/hermes/.gradle

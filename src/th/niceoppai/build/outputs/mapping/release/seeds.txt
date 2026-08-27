@@ -1,0 +1,2 @@
+eu.kanade.tachiyomi.extension.th.niceoppai.ExtensionGenerated
+eu.kanade.tachiyomi.extension.th.niceoppai.ExtensionGenerated: ExtensionGenerated()

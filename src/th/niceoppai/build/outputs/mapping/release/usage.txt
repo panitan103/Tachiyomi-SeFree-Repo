@@ -1,0 +1,183 @@
+eu.kanade.tachiyomi.extension.BuildConfig
+eu.kanade.tachiyomi.extension.R$mipmap
+eu.kanade.tachiyomi.extension.R
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai:
+    private static final java.lang.String ORDER_BY_FILTER_TITLE
+    public static final synthetic java.lang.Object access$fetchChapters(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation)
+    public static final synthetic java.lang.Object access$fetchDetails(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,eu.kanade.tachiyomi.source.model.SManga,kotlin.coroutines.Continuation)
+    public static final synthetic java.lang.Object access$fetchMangasPage(eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai,okhttp3.Request,kotlin.coroutines.Continuation)
+eu.kanade.tachiyomi.extension.th.niceoppai.OrderByFilter:
+    public synthetic void <init>(java.lang.String,java.util.List,int,int,kotlin.jvm.internal.DefaultConstructorMarker)
+eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter:
+    public synthetic void <init>(java.lang.String,kotlin.Pair[],int,int,kotlin.jvm.internal.DefaultConstructorMarker)
+keiyoushi.annotation.Source
+keiyoushi.core.R$mipmap
+keiyoushi.core.R
+keiyoushi.network.CookieConfig
+keiyoushi.network.CookieInterceptor
+keiyoushi.network.CookieKt
+keiyoushi.network.OkHttpKt
+keiyoushi.network.RateLimitInterceptor$RateLimit
+keiyoushi.network.RateLimitInterceptor$RateLimitTag
+keiyoushi.network.RateLimitInterceptor$TaggingInterceptor
+keiyoushi.network.RateLimitInterceptor:
+    private final java.util.List rateLimits
+    public void <init>(keiyoushi.network.RateLimitRule)
+    private final void acquireSlot(keiyoushi.network.RateLimitInterceptor$RateLimit,okhttp3.Call)
+    public final void addRule(keiyoushi.network.RateLimitRule)
+    public okhttp3.Response intercept(okhttp3.Interceptor$Chain)
+keiyoushi.network.RateLimitKt
+keiyoushi.network.RateLimitRule
+keiyoushi.source.CustomUrlPreferences$setupPreferenceScreen$1$2$2
+keiyoushi.source.CustomUrlPreferences
+keiyoushi.source.KeiSource$FilterCacheState:
+    public final keiyoushi.source.KeiSource$FilterCacheState copy(kotlinx.serialization.json.JsonElement,boolean)
+    public static synthetic keiyoushi.source.KeiSource$FilterCacheState copy$default(keiyoushi.source.KeiSource$FilterCacheState,kotlinx.serialization.json.JsonElement,boolean,int,java.lang.Object)
+    public final kotlinx.serialization.json.JsonElement getData()
+    public final boolean isFresh()
+keiyoushi.source.KeiSource:
+    public static synthetic void getDisableRelatedMangas$annotations()
+    public static synthetic void getDisableRelatedMangasBySearch$annotations()
+    public abstract java.lang.Object getLatestUpdates(int,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object getPageList(eu.kanade.tachiyomi.source.model.SChapter,kotlin.coroutines.Continuation)
+    public abstract java.lang.Object getPopularManga(int,kotlin.coroutines.Continuation)
+    public boolean getSupportsLatest()
+keiyoushi.source.MirrorPreferences
+keiyoushi.source.UrlActivity
+keiyoushi.utils.BinaryKt
+keiyoushi.utils.CollectionsKt
+keiyoushi.utils.CryptoKt
+keiyoushi.utils.DateKt
+keiyoushi.utils.GraphQLErrorInterceptor
+keiyoushi.utils.GraphQLException
+keiyoushi.utils.GraphQLKt$parseGraphQLAs$1
+keiyoushi.utils.GraphQLKt$parseGraphQLAs$2
+keiyoushi.utils.GraphQLKt
+keiyoushi.utils.GraphQLRequest$$serializer
+keiyoushi.utils.GraphQLRequest$Companion
+keiyoushi.utils.GraphQLRequest
+keiyoushi.utils.GraphQLResponse$$serializer
+keiyoushi.utils.GraphQLResponse$Companion
+keiyoushi.utils.GraphQLResponse$GraphQLError$$serializer
+keiyoushi.utils.GraphQLResponse$GraphQLError$Companion
+keiyoushi.utils.GraphQLResponse$GraphQLError
+keiyoushi.utils.GraphQLResponse
+keiyoushi.utils.InflaterKt
+keiyoushi.utils.JsonElementKt
+keiyoushi.utils.JsonKt:
+    public static final okhttp3.MediaType getJSON_MEDIA_TYPE()
+    public static final synthetic java.lang.Object parseAs(java.io.InputStream,kotlinx.serialization.json.Json)
+    public static final synthetic java.lang.Object parseAs(java.lang.String,kotlinx.serialization.json.Json)
+    public static final synthetic java.lang.Object parseAs(java.lang.String,kotlinx.serialization.json.Json,kotlin.jvm.functions.Function1)
+    public static final synthetic java.lang.Object parseAs(kotlinx.serialization.json.JsonElement,kotlinx.serialization.json.Json)
+    public static final synthetic java.lang.Object parseAs(okhttp3.Response,kotlinx.serialization.json.Json)
+    public static final synthetic java.lang.Object parseAs(okhttp3.Response,kotlinx.serialization.json.Json,kotlin.jvm.functions.Function1)
+    public static synthetic java.lang.Object parseAs$default(java.io.InputStream,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static synthetic java.lang.Object parseAs$default(java.lang.String,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static synthetic java.lang.Object parseAs$default(java.lang.String,kotlinx.serialization.json.Json,kotlin.jvm.functions.Function1,int,java.lang.Object)
+    public static synthetic java.lang.Object parseAs$default(kotlinx.serialization.json.JsonElement,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static synthetic java.lang.Object parseAs$default(okhttp3.Response,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static synthetic java.lang.Object parseAs$default(okhttp3.Response,kotlinx.serialization.json.Json,kotlin.jvm.functions.Function1,int,java.lang.Object)
+    public static final synthetic kotlinx.serialization.json.JsonElement toJsonElement(java.lang.Object,kotlinx.serialization.json.Json)
+    public static synthetic kotlinx.serialization.json.JsonElement toJsonElement$default(java.lang.Object,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static final synthetic okhttp3.RequestBody toJsonRequestBody(java.lang.Object,kotlinx.serialization.json.Json)
+    public static synthetic okhttp3.RequestBody toJsonRequestBody$default(java.lang.Object,kotlinx.serialization.json.Json,int,java.lang.Object)
+    public static final synthetic java.lang.String toJsonString(java.lang.Object,kotlinx.serialization.json.Json)
+    public static synthetic java.lang.String toJsonString$default(java.lang.Object,kotlinx.serialization.json.Json,int,java.lang.Object)
+keiyoushi.utils.LoggingWebChromeClient$WhenMappings
+keiyoushi.utils.LoggingWebChromeClient
+keiyoushi.utils.NextJsKt$inferredNextJsPredicate$2
+keiyoushi.utils.NextJsKt$inferredNextJsPredicate$3
+keiyoushi.utils.NextJsKt
+keiyoushi.utils.PersistedQueryExtension$$serializer
+keiyoushi.utils.PersistedQueryExtension$Companion
+keiyoushi.utils.PersistedQueryExtension$PersistedQuery$$serializer
+keiyoushi.utils.PersistedQueryExtension$PersistedQuery$Companion
+keiyoushi.utils.PersistedQueryExtension$PersistedQuery
+keiyoushi.utils.PersistedQueryExtension
+keiyoushi.utils.PreferencesKt$getPreferences$1
+keiyoushi.utils.PreferencesKt$getPreferencesLazy$1
+keiyoushi.utils.PreferencesKt$getPreferencesLazy$2
+keiyoushi.utils.PreferencesKt
+keiyoushi.utils.ProtobufKt$special$$inlined$get$1
+keiyoushi.utils.ProtobufKt
+keiyoushi.utils.RenderProcessGoneException
+keiyoushi.utils.ScopeWebViewClient$Companion
+keiyoushi.utils.ScopeWebViewClient$client_delegate$lambda$0$$inlined$get$1
+keiyoushi.utils.ScopeWebViewClient
+keiyoushi.utils.WebViewKt$runWebView$1
+keiyoushi.utils.WebViewKt$runWebView$execute$2$1
+keiyoushi.utils.WebViewKt$runWebView$execute$2
+keiyoushi.utils.WebViewKt$runWebViewBlocking$2$watcher$1
+keiyoushi.utils.WebViewKt$runWebViewBlocking$2
+keiyoushi.utils.WebViewKt
+keiyoushi.utils.WebViewScope$jsBridge$1
+keiyoushi.utils.WebViewScope$poll$runnable$1
+keiyoushi.utils.WebViewScope$setting$1
+keiyoushi.utils.WebViewScope
+keiyoushi.utils.WebViewSession
+keiyoushi.utils.WebViewTimeoutException
+keiyoushi.utils.reactFlight.ReactFlightBigIntKt
+keiyoushi.utils.reactFlight.ReactFlightBigIntSerializer
+keiyoushi.utils.reactFlight.ReactFlightDateKt
+keiyoushi.utils.reactFlight.ReactFlightDateSerializer
+keiyoushi.utils.reactFlight.ReactFlightNumberKt
+keiyoushi.utils.reactFlight.ReactFlightNumberSerializer
+keiyoushi.zip.Entry
+keiyoushi.zip.Eocd
+keiyoushi.zip.FixedLengthSource
+keiyoushi.zip.ZipDirectory
+keiyoushi.zip.ZipKt$zipDirectoryAsync$1
+keiyoushi.zip.ZipKt
+eu.kanade.tachiyomi.extension.th.niceoppai.ExtensionGenerated:
+    public static final eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion Companion
+    public final java.lang.Object fetchMangaUpdate()
+    public final java.lang.String getFilterFetchHint()
+    public final eu.kanade.tachiyomi.source.model.FilterList getFilterList$1()
+    public final java.lang.Object getSearchMangaList()
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai$Companion
+eu.kanade.tachiyomi.extension.th.niceoppai.Niceoppai
+eu.kanade.tachiyomi.extension.th.niceoppai.OrderByFilter:
+    public static java.lang.String toUriPart()
+eu.kanade.tachiyomi.extension.th.niceoppai.UriPartFilter
+keiyoushi.network.RateLimitInterceptor
+keiyoushi.source.KeiSource$FilterCacheState
+keiyoushi.source.KeiSource$delegate$1:
+    public static okhttp3.Headers getValue()
+keiyoushi.source.KeiSource$getMangaUpdate$1:
+    public boolean Z$0
+    public boolean Z$1
+keiyoushi.source.KeiSource$getMangasByUrl$1:
+    public int I$0
+keiyoushi.source.KeiSource$triggerBackgroundFilterFetch$1
+keiyoushi.source.KeiSource:
+    public final kotlin.Lazy filterCacheFile$delegate
+    public final java.util.concurrent.atomic.AtomicInteger filterFetchAttemptCount
+    public final java.util.concurrent.atomic.AtomicBoolean filterFetchInFlight
+    public final int maxFilterFetchAttempts
+    public synthetic abstract java.lang.Void chapterListParse()
+    public synthetic abstract java.lang.Void chapterListRequest()
+    public abstract okhttp3.OkHttpClient$Builder configureClient()
+    public abstract okhttp3.Headers$Builder configureHeaders()
+    public abstract java.lang.Object fetchMangaUpdate()
+    public final java.io.File getFilterCacheDir()
+    public final java.io.File getFilterCacheFile()
+    public abstract java.lang.String getFilterFetchHint()
+    public abstract eu.kanade.tachiyomi.source.model.FilterList getFilterList$1()
+    public abstract java.lang.Object getSearchMangaList()
+    public synthetic abstract java.lang.Void imageUrlParse()
+    public synthetic abstract java.lang.Void imageUrlRequest()
+    public synthetic abstract java.lang.Void latestUpdatesParse()
+    public synthetic abstract java.lang.Void latestUpdatesRequest()
+    public synthetic abstract java.lang.Void mangaDetailsParse()
+    public synthetic abstract java.lang.Void mangaDetailsRequest()
+    public synthetic abstract java.lang.Void pageListParse()
+    public synthetic abstract java.lang.Void pageListRequest()
+    public synthetic abstract java.lang.Void popularMangaParse()
+    public synthetic abstract java.lang.Void popularMangaRequest()
+    public synthetic abstract java.lang.Void relatedMangaListRequest()
+    public synthetic abstract java.lang.Void searchMangaParse()
+    public synthetic abstract java.lang.Void searchMangaRequest()
+    public final void writeFilterCache(kotlinx.serialization.json.JsonElement)
+keiyoushi.utils.JsonKt$special$$inlined$get$1
+keiyoushi.utils.JsonKt

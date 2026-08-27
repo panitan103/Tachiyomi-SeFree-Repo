@@ -1,6 +1,7 @@
 {
   "name": "SeFree",
   "badgeLabel": "SF",
+  "signingKey": "a7c48f32e3ecf213a1a4fe834e1b30153c5ce47b05c9dd630c48dadb7569ced1",
   "contact": {
     "website": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo"
   },
@@ -11,6 +12,7 @@
         "packageName": "eu.kanade.tachiyomi.extension.th.niceoppai",
         "resources": {
           "apkUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo/tachiyomi-th.niceoppai-v1.6.1.apk",
+          "iconUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/main/core/src/main/res/mipmap-xhdpi/ic_launcher.png",
           "jarUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo/tachiyomi-th.niceoppai-v1.6.1.jar"
         },
         "extensionLib": "1.6",
