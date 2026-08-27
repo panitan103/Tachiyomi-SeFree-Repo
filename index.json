@@ -1,0 +1,31 @@
+{
+  "name": "SeFree",
+  "badgeLabel": "SF",
+  "contact": {
+    "website": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo"
+  },
+  "extensionList": {
+    "extensions": [
+      {
+        "name": "Niceoppai",
+        "packageName": "eu.kanade.tachiyomi.extension.th.niceoppai",
+        "resources": {
+          "apkUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo/tachiyomi-th.niceoppai-v1.6.1.apk",
+          "jarUrl": "https://raw.githubusercontent.com/panitan103/Tachiyomi-SeFree-Repo/repo/tachiyomi-th.niceoppai-v1.6.1.jar"
+        },
+        "extensionLib": "1.6",
+        "versionCode": "1",
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": "7720269837249664423",
+            "name": "Niceoppai",
+            "language": "th",
+            "homeUrl": "https://www.niceoppai.net"
+          }
+        ]
+      }
+    ]
+  }
+}
