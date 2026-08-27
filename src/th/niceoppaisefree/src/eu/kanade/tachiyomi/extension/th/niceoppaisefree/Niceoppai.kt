@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.th.niceoppai
+package eu.kanade.tachiyomi.extension.th.niceoppaisefree
 
 import eu.kanade.tachiyomi.network.GET
 import eu.kanade.tachiyomi.source.model.Filter

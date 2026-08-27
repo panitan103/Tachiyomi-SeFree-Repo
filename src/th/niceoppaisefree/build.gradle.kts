@@ -5,7 +5,7 @@ plugins {
 }
 
 keiyoushi {
-    name = "Niceoppai"
+    name = "Niceoppai-SeFree"
     versionCode = 1
     contentWarning = ContentWarning.MIXED
     libVersion = "1.6"
